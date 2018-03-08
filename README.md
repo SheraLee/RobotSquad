@@ -3,8 +3,8 @@ Implements a skybox and trackball rotation of the camera. Animates a grid of And
 
 User is able to manipulate the camera.
 
-Zoom camera:
+**Zoom camera:**
 Scroll up and down with mouse to move camera in Z direction.
 
-Rotate camera:
+**Rotate camera:**
 Hold left mouse button and rotate to see other parts of the skybox.

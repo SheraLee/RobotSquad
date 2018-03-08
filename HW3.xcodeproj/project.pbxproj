@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15963F7420470C210007BE2E /* Robot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15963F7220470C210007BE2E /* Robot.cpp */; };
 		15B8C8002043472E00B70F14 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15B8C7FF2043472E00B70F14 /* main.cpp */; };
+		15B8C8082043480400B70F14 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B8C8072043480400B70F14 /* OpenGL.framework */; };
+		15B8C80A2043484F00B70F14 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B8C8092043484F00B70F14 /* libglfw.3.2.dylib */; };
+		15B8C81D20434A9E00B70F14 /* Window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15B8C80B20434A9B00B70F14 /* Window.cpp */; };
+		15B8C81E20434A9E00B70F14 /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15B8C81720434A9C00B70F14 /* Cube.cpp */; };
+		15B8C81F20434A9E00B70F14 /* OBJObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15B8C81920434A9D00B70F14 /* OBJObject.cpp */; };
+		15B8C82020434A9E00B70F14 /* shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15B8C81C20434A9D00B70F14 /* shader.cpp */; };
+		15B8C82620437BDF00B70F14 /* Skybox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15B8C82420437BDF00B70F14 /* Skybox.cpp */; };
+		15BB227D2046460500CB2AEF /* stb_image_aug.c in Sources */ = {isa = PBXBuildFile; fileRef = 15BB227C2046460500CB2AEF /* stb_image_aug.c */; };
+		15BDEFD62048679700C7A2AA /* Curve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15BDEFD42048679700C7A2AA /* Curve.cpp */; };
+		15C7EBF02045CC6200B13F5A /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C7EBEE2045CC6200B13F5A /* Node.cpp */; };
+		15C7EBF32045CD8600B13F5A /* Transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C7EBF12045CD8600B13F5A /* Transform.cpp */; };
+		15C7EBF62045D03B00B13F5A /* Geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15C7EBF42045D03B00B13F5A /* Geometry.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +36,43 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		15963F7220470C210007BE2E /* Robot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Robot.cpp; sourceTree = "<group>"; };
+		15963F7320470C210007BE2E /* Robot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		1596A0A42044DF9300FE21BC /* stb_image_aug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image_aug.h; sourceTree = "<group>"; };
+		1596A0A82044E08800FE21BC /* stbi_DDS_aug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_DDS_aug.h; sourceTree = "<group>"; };
 		15B8C7FC2043472E00B70F14 /* HW3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW3; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B8C7FF2043472E00B70F14 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		15B8C8072043480400B70F14 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		15B8C8092043484F00B70F14 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = "../../../../../Developer/glfw-3.2.1/src/libglfw.3.2.dylib"; sourceTree = "<group>"; };
+		15B8C80B20434A9B00B70F14 /* Window.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Window.cpp; sourceTree = "<group>"; };
+		15B8C80C20434A9B00B70F14 /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		15B8C81020434A9C00B70F14 /* OBJObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBJObject.h; sourceTree = "<group>"; };
+		15B8C81120434A9C00B70F14 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		15B8C81220434A9C00B70F14 /* shader.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.frag; sourceTree = "<group>"; };
+		15B8C81320434A9C00B70F14 /* shader.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.vert; sourceTree = "<group>"; };
+		15B8C81620434A9C00B70F14 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		15B8C81720434A9C00B70F14 /* Cube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cube.cpp; sourceTree = "<group>"; };
+		15B8C81920434A9D00B70F14 /* OBJObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OBJObject.cpp; sourceTree = "<group>"; };
+		15B8C81A20434A9D00B70F14 /* shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shader.h; sourceTree = "<group>"; };
+		15B8C81C20434A9D00B70F14 /* shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shader.cpp; sourceTree = "<group>"; };
+		15B8C8212043758500B70F14 /* boxShader.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = boxShader.vert; sourceTree = "<group>"; };
+		15B8C8222043758500B70F14 /* boxShader.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = boxShader.frag; sourceTree = "<group>"; };
+		15B8C82420437BDF00B70F14 /* Skybox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Skybox.cpp; sourceTree = "<group>"; };
+		15B8C82720437C2600B70F14 /* Skybox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skybox.h; sourceTree = "<group>"; };
+		15BB227C2046460500CB2AEF /* stb_image_aug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_image_aug.c; sourceTree = "<group>"; };
+		15BB227E204651CE00CB2AEF /* antenna.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = antenna.obj; path = "robot-parts/antenna.obj"; sourceTree = "<group>"; };
+		15BB227F204651CE00CB2AEF /* limb.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = limb.obj; path = "robot-parts/limb.obj"; sourceTree = "<group>"; };
+		15BB2280204651CF00CB2AEF /* body.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = body.obj; path = "robot-parts/body.obj"; sourceTree = "<group>"; };
+		15BB2281204651CF00CB2AEF /* head.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = head.obj; path = "robot-parts/head.obj"; sourceTree = "<group>"; };
+		15BB2282204651CF00CB2AEF /* eyeball.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = eyeball.obj; path = "robot-parts/eyeball.obj"; sourceTree = "<group>"; };
+		15BDEFD42048679700C7A2AA /* Curve.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Curve.cpp; sourceTree = "<group>"; };
+		15BDEFD52048679700C7A2AA /* Curve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Curve.h; sourceTree = "<group>"; };
+		15C7EBEE2045CC6200B13F5A /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		15C7EBEF2045CC6200B13F5A /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		15C7EBF12045CD8600B13F5A /* Transform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Transform.cpp; sourceTree = "<group>"; };
+		15C7EBF22045CD8600B13F5A /* Transform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transform.h; sourceTree = "<group>"; };
+		15C7EBF42045D03B00B13F5A /* Geometry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Geometry.cpp; sourceTree = "<group>"; };
+		15C7EBF52045D03B00B13F5A /* Geometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15B8C80A2043484F00B70F14 /* libglfw.3.2.dylib in Frameworks */,
+				15B8C8082043480400B70F14 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +93,7 @@
 			children = (
 				15B8C7FE2043472E00B70F14 /* HW3 */,
 				15B8C7FD2043472E00B70F14 /* Products */,
+				15B8C8062043480400B70F14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +108,51 @@
 		15B8C7FE2043472E00B70F14 /* HW3 */ = {
 			isa = PBXGroup;
 			children = (
+				15BB227E204651CE00CB2AEF /* antenna.obj */,
+				15BB2280204651CF00CB2AEF /* body.obj */,
+				15BB2282204651CF00CB2AEF /* eyeball.obj */,
+				15BB2281204651CF00CB2AEF /* head.obj */,
+				15BB227F204651CE00CB2AEF /* limb.obj */,
 				15B8C7FF2043472E00B70F14 /* main.cpp */,
+				15B8C81620434A9C00B70F14 /* main.h */,
+				15B8C80B20434A9B00B70F14 /* Window.cpp */,
+				15B8C81120434A9C00B70F14 /* Window.h */,
+				15B8C81920434A9D00B70F14 /* OBJObject.cpp */,
+				15B8C81020434A9C00B70F14 /* OBJObject.h */,
+				15B8C82420437BDF00B70F14 /* Skybox.cpp */,
+				15B8C82720437C2600B70F14 /* Skybox.h */,
+				15B8C8212043758500B70F14 /* boxShader.vert */,
+				15B8C8222043758500B70F14 /* boxShader.frag */,
+				15B8C81320434A9C00B70F14 /* shader.vert */,
+				15B8C81220434A9C00B70F14 /* shader.frag */,
+				15B8C81C20434A9D00B70F14 /* shader.cpp */,
+				15B8C81A20434A9D00B70F14 /* shader.h */,
+				15B8C81720434A9C00B70F14 /* Cube.cpp */,
+				15B8C80C20434A9B00B70F14 /* Cube.h */,
+				15BB227C2046460500CB2AEF /* stb_image_aug.c */,
+				1596A0A42044DF9300FE21BC /* stb_image_aug.h */,
+				1596A0A82044E08800FE21BC /* stbi_DDS_aug.h */,
+				15C7EBEE2045CC6200B13F5A /* Node.cpp */,
+				15C7EBEF2045CC6200B13F5A /* Node.h */,
+				15C7EBF12045CD8600B13F5A /* Transform.cpp */,
+				15C7EBF22045CD8600B13F5A /* Transform.h */,
+				15C7EBF42045D03B00B13F5A /* Geometry.cpp */,
+				15C7EBF52045D03B00B13F5A /* Geometry.h */,
+				15963F7220470C210007BE2E /* Robot.cpp */,
+				15963F7320470C210007BE2E /* Robot.h */,
+				15BDEFD42048679700C7A2AA /* Curve.cpp */,
+				15BDEFD52048679700C7A2AA /* Curve.h */,
 			);
 			path = HW3;
+			sourceTree = "<group>";
+		};
+		15B8C8062043480400B70F14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15B8C8092043484F00B70F14 /* libglfw.3.2.dylib */,
+				15B8C8072043480400B70F14 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +212,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C7EBF32045CD8600B13F5A /* Transform.cpp in Sources */,
+				15BB227D2046460500CB2AEF /* stb_image_aug.c in Sources */,
+				15B8C82020434A9E00B70F14 /* shader.cpp in Sources */,
+				15B8C81F20434A9E00B70F14 /* OBJObject.cpp in Sources */,
+				15B8C81E20434A9E00B70F14 /* Cube.cpp in Sources */,
 				15B8C8002043472E00B70F14 /* main.cpp in Sources */,
+				15963F7420470C210007BE2E /* Robot.cpp in Sources */,
+				15BDEFD62048679700C7A2AA /* Curve.cpp in Sources */,
+				15B8C81D20434A9E00B70F14 /* Window.cpp in Sources */,
+				15C7EBF62045D03B00B13F5A /* Geometry.cpp in Sources */,
+				15B8C82620437BDF00B70F14 /* Skybox.cpp in Sources */,
+				15C7EBF02045CC6200B13F5A /* Node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +337,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"/Developer/glfw-3.2.1/include",
+					/Developer/glm,
+				);
+				LIBRARY_SEARCH_PATHS = "/Developer/glfw-3.2.1/src";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -241,6 +350,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"/Developer/glfw-3.2.1/include",
+					/Developer/glm,
+				);
+				LIBRARY_SEARCH_PATHS = "/Developer/glfw-3.2.1/src";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
